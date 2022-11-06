@@ -1,0 +1,11 @@
+.title {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-7);
+  margin: var(--size-7) 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

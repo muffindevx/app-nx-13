@@ -1,0 +1,22 @@
+.container {
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.navigation a {
+  color: var(--gray-7);
+  font-weight: var(--font-weight-6);
+}
+
+.navigation a:hover {
+  border-bottom: 1px dashed var(--gray-7);
+}

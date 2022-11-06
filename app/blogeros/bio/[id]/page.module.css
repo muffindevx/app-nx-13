@@ -1,0 +1,29 @@
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.user-avatar {
+  block-size: unset;
+  max-inline-size: unset;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info h4 {
+  color: var(--gray-7);
+}
+
+.user-info h6 {
+  color: var(--gray-4);
+}

@@ -1,26 +1,18 @@
-html,
+@import 'open-props/normalize';
+@import 'open-props/style';
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0 var(--size-fluid-8);
 }
 
-a {
-  color: inherit;
+:where(a[href]) {
+  color: var(--gray-7);
+}
+
+:where(a[href]):visited {
+  color: var(--gray-7);
+}
+
+:where(a[href]):hover {
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }

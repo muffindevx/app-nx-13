@@ -1,0 +1,18 @@
+.card {
+  box-shadow: var(--shadow-2);
+  padding: var(--size-3);
+  border-radius: var(--radius-3);
+}
+
+.card:hover {
+  background-color: var(--grape-1);
+}
+
+.card-title {
+  font-size: var(--size-5);
+}
+
+.card-content {
+  margin-top: var(--size-3);
+  color: var(--gray-7);
+}
